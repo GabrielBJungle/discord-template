@@ -17,7 +17,7 @@ export class MainMenu extends Scene
 
         this.add.image(this.game.config.width * 0.5, 300, 'logo');
 
-        this.add.text(this.game.config.width * 0.5, 460, 'Main Menu', {
+        this.add.text(this.game.config.width * 0.5, 460, 'Start Game', {
             fontFamily: 'Arial Black', fontSize: 38, color: '#ffffff',
             stroke: '#000000', strokeThickness: 8,
             align: 'center'
